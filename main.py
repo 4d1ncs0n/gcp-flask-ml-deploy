@@ -7,7 +7,7 @@ def hello():
   """Return a friendly HTTP greeting.
   """
   print("I am inside hello world!")
-  return 'Hello World!'
+  return 'Hello World! CD'
 
 @app.route('/echo/<name>')
 def echo(name):
